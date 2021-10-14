@@ -52,6 +52,7 @@ export default class Tree extends React.PureComponent {
   constructor(props) {
     super()
     this.state = { open: props.open, visible: props.visible, immediate: false }
+    this.customIcons = props.customIcons
   }
 
   toggle = () =>
@@ -78,8 +79,16 @@ export default class Tree extends React.PureComponent {
   render() {
     const { open, visible, immediate } = this.state
     const { children, content, type, style, canHide, springConfig } = this.props
-    const Icon =
-      Icons[`${children ? (open ? 'Minus' : 'Plus') : 'Close'}SquareO`]
+
+    var Icon = null
+
+    if (this.customIcons != null) {
+        Icon = this.customIcons[`${children ? (open ? 'Minus' : 'Plus') : 'Close'}SquareO`]
+    }
+    else {
+        Icon = Icons[`${children ? (open ? 'Minus' : 'Plus') : 'Close'}SquareO`]
+    }
+
     return (
       <div style={{ ...styles.tree, ...style }} className="treeview">
         <Icon
