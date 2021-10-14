@@ -1,24 +1,15 @@
 import React from 'react'
 
 const MinusSquareO = props => (
-  <svg {...props} viewBox="64 -65 897 897">
-    <g>
-      <path
-        d="M888 760v0v0v-753v0h-752v0v753v0h752zM888 832h-752q-30 0 -51 -21t-21 -51v-753q0 -29 21 -50.5t51 -21.5h753q29 0 50.5 21.5t21.5 50.5v753q0 30 -21.5 51t-51.5 21v0zM732 347h-442q-14 0 -25 10.5t-11 25.5v0q0 15 11 25.5t25 10.5h442q14 0 25 -10.5t11 -25.5v0
-  q0 -15 -11 -25.5t-25 -10.5z"
-      />
-    </g>
+  <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 1.175L3.7085 5L0 8.825L1.1417 10L6 5L1.1417 0L0 1.175Z" fill="#B6C9D2"/>
   </svg>
+
 )
 
 const PlusSquareO = props => (
-  <svg {...props} viewBox="64 -65 897 897">
-    <g>
-      <path
-        d="M888 760v0v0v-753v0h-752v0v753v0h752zM888 832h-752q-30 0 -51 -21t-21 -51v-753q0 -29 21 -50.5t51 -21.5h753q29 0 50.5 21.5t21.5 50.5v753q0 30 -21.5 51t-51.5 21v0zM732 420h-184v183q0 15 -10.5 25.5t-25.5 10.5v0q-14 0 -25 -10.5t-11 -25.5v-183h-184
-  q-15 0 -25.5 -11t-10.5 -25v0q0 -15 10.5 -25.5t25.5 -10.5h184v-183q0 -15 11 -25.5t25 -10.5v0q15 0 25.5 10.5t10.5 25.5v183h184q15 0 25.5 10.5t10.5 25.5v0q0 14 -10.5 25t-25.5 11z"
-      />
-    </g>
+  <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M8.825 -1.02722e-07L5 3.7085L1.175 -7.71506e-07L4.24726e-07 1.1417L5 6L10 1.1417L8.825 -1.02722e-07Z" fill="#B6C9D2"/>
   </svg>
 )
 
@@ -35,8 +26,12 @@ const EyeO = props => (
 )
 
 const CloseSquareO = props => (
-  <svg {...props} viewBox="64 -65 897 897">
+  <svg width="10" height="12" viewBox="0 0 10 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M5.4 4.2V0.9L8.7 4.2H5.4ZM1.2 0C0.534 0 0 0.534 0 1.2V10.8C0 11.1183 0.126428 11.4235 0.351472 11.6485C0.576515 11.8736 0.88174 12 1.2 12H8.4C8.71826 12 9.02348 11.8736 9.24853 11.6485C9.47357 11.4235 9.6 11.1183 9.6 10.8V3.6L6 0H1.2Z" fill="#61747D"/>
   </svg>
+
 )
 
 export { PlusSquareO, MinusSquareO, CloseSquareO, EyeO }
+
+
