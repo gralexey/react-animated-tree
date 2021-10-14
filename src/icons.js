@@ -1,13 +1,13 @@
 import React from 'react'
 
 const MinusSquareO = props => (
-  <svg {...props} width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg {...props} width="6" height="10" viewBox="0 -2 6 12" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0 1.175L3.7085 5L0 8.825L1.1417 10L6 5L1.1417 0L0 1.175Z" fill="#B6C9D2"/>
   </svg>
 )
 
 const PlusSquareO = props => (
-  <svg {...props} width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg {...props} width="10" height="6" viewBox="0 -4 10 12" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M8.825 -1.02722e-07L5 3.7085L1.175 -7.71506e-07L4.24726e-07 1.1417L5 6L10 1.1417L8.825 -1.02722e-07Z" fill="#B6C9D2"/>
   </svg>
 )
@@ -25,7 +25,7 @@ const EyeO = props => (
 )
 
 const CloseSquareO = props => (
-  <svg {...props} width="10" height="12" viewBox="0 0 10 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg {...props} width="10" height="12" viewBox="0 -2 10 14" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M5.4 4.2V0.9L8.7 4.2H5.4ZM1.2 0C0.534 0 0 0.534 0 1.2V10.8C0 11.1183 0.126428 11.4235 0.351472 11.6485C0.576515 11.8736 0.88174 12 1.2 12H8.4C8.71826 12 9.02348 11.8736 9.24853 11.6485C9.47357 11.4235 9.6 11.1183 9.6 10.8V3.6L6 0H1.2Z" fill="#61747D"/>
   </svg>
 )
